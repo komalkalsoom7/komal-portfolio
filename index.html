@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>komal portfolio</title>
+</head>
+
+<body>
+    <!-- ================= header section start ================= -->
+    <section id="header-section">
+        <div class="container">
+
+            <!-- header navbar -->
+            <nav>
+                <div class="logo">
+                    <a href=""><span class="logo-letter">K</span>omal <span class="logo-letter">K</span>alsoom<span
+                            class="logo-letter">.</span></a>
+                </div>
+
+                <ul>
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+            </nav>
+            <!-- header-text -->
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>
+                    Hi, I m <span class="header-letter">Komal Kalsoom</span>
+                    <br>
+                    From Pakistan
+                </h1>
+            </div>
+
+        </div>
+    </section>
+    <!-- ================= header section end ================= -->
+
+    <!-- ==============================\\\\\\\\\\\\\\\======================= -->
+    <!-- ==============================\\\\\\\\\\\\\\\======================= -->
+
+    <!-- ================= About section start ================= -->
+    <section id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="overley"></div>
+                    <img src="images/about.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+
+                    <!-- ============= -->
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestias dicta velit soluta amet
+                        repellendus dignissimos excepturi quidem libero natus reprehenderit corporis perferendis id hic
+                        cumque, qui sint. Nisi necessitatibus eos cumque cum est, voluptatem debitis, similique delectus
+                        ex modi veritatis, maiore!
+                    </p>
+                    <!-- ============= -->
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- ============= -->
+
+                    <!-- skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Front-End<span><br> Web Developer</span></li>
+                            <li>Back-End<span><br> Web Developer</span></li>
+                            <li>Full-Stack<span><br>Web Developer</span></li>
+                        </ul>
+                    </div>
+                    <!-- ============= -->
+                    <!-- experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>2023-2024<span><br>Front-End Web Developer</span></li>
+                            <li>2023-2024<span><br>Back-End Web Developer</span></li>
+                            <li>2023-2024<span><br>Full-Stack Web Developer</span></li>
+                        </ul>
+                    </div>
+                    <!-- ============= -->
+                    <!-- education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>2022-2024<span><br> Diploma in CS</span></li>
+                            <li>2014-2018<span><br>BSCS</span></li>
+                        </ul>
+                    </div>
+                    <!-- ============= -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= About section end ================= -->
+
+    <!-- ==============================\\\\\\\\\\\\\\\======================= -->
+    <!-- ==============================\\\\\\\\\\\\\\\======================= -->
+
+    <!-- ================= Services section start ================= -->
+    <section id="services-container">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam nam aliquid, totam porro
+                        dolorem nesciunt error fuga reiciendis quisquam quas?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam nam aliquid, totam porro
+                        dolorem nesciunt error fuga reiciendis quisquam quas?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Back-End Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam nam aliquid, totam porro
+                        dolorem nesciunt error fuga reiciendis quisquam quas?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= Services section end ================= -->
+
+    <!-- ==============================\\\\\\\\\\\\\\\======================= -->
+    <!-- ==============================\\\\\\\\\\\\\\\======================= -->
+
+    <!-- ================= Portfolio section start ================= -->
+    <section id="portfiolio-section">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/bg.jpg" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, velit?</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/bg.jpg" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, velit?</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/bg.jpg" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, velit?</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/bg.jpg" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, velit?</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/bg.jpg" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, velit?</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/bg.jpg" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, velit?</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= Portfolio section end ================= -->
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

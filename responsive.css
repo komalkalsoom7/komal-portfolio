@@ -1,0 +1,25 @@
+@media(max-width:900px) {
+    nav ul {
+        display: none;
+    }
+
+    .header-text {
+        margin-top: 110px;
+    }
+
+    #header-section {
+        height: 80vh;
+    }
+
+    .header-text h1 {
+        font-size: 45px;
+    }
+
+    .about-col-1 {
+        flex-basis: 100%;
+    }
+
+    .about-col-2 {
+        flex-basis: 100%;
+    }
+}
