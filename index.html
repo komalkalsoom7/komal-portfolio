@@ -17,7 +17,7 @@
 
 <body>
     <!-- ================= header section start ================= -->
-    <section id="header-section">
+    <section id="header-section header">
         <div class="container">
 
             <!-- header navbar -->
@@ -27,14 +27,15 @@
                             class="logo-letter">.</span></a>
                 </div>
 
-                <ul>
-                    <li><a href="" class="active">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contact</a></li>
+                <ul id="sidemenu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
-
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <!-- header-text -->
             <div class="header-text">
@@ -55,7 +56,7 @@
 
     <!-- ================= About section start ================= -->
     <section id="about-section">
-        <div class="container">
+        <div class="container" id="about">
             <div class="row">
                 <div class="about-col-1">
                     <div class="overley"></div>
@@ -117,7 +118,7 @@
 
     <!-- ================= Services section start ================= -->
     <section id="services-container">
-        <div class="container">
+        <div class="container" id="services">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
@@ -151,7 +152,7 @@
 
     <!-- ================= Portfolio section start ================= -->
     <section id="portfiolio-section">
-        <div class="container">
+        <div class="container" id="portfolio">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
@@ -213,7 +214,7 @@
 
     <!-- ================= Contact section start ================= -->
     <section id="contact">
-        <div class="container">
+        <div class="container" id="contact">
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
@@ -228,18 +229,21 @@
                     <a href="images/CV_komalKalsoom.pdf" download="" class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Enter your Name" required>
                         <input type="email" name="Email" placeholder="Enter your Email" required>
                         <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+
+                    <span id="msg">hello</span>
+                    
                 </div>
             </div>
         </div>
         <!-- ========= -->
         <div class="copyright">
-            <p>Copyright &copy; 2024. Made with <i class="fa-solid fa-heart"></i>  by Komal Kalsoom</p>
+            <p>Copyright &copy; 2024. Made with <i class="fa-solid fa-heart"></i> by Komal Kalsoom</p>
         </div>
     </section>
     <!-- ================= Contact section end ================= -->
