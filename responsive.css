@@ -22,4 +22,14 @@
     .about-col-2 {
         flex-basis: 100%;
     }
+    .contact-left{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .contact-right{
+        flex-basis: 100%;
+    }
+    .contact-left h1{
+        font-size: 40px;
+    }
 }
